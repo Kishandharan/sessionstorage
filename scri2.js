@@ -1,4 +1,5 @@
 document.getElementById("get").onclick = function(){
     let key = document.getElementById("key").value;
-    console.log(sessionStorage.getItem(key));
+    let val = sessionStorage.getItem(key);
+    console.log(val);
 }
